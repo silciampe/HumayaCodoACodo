@@ -1,0 +1,291 @@
+*{
+    background-color: black;
+}
+
+.fondoEncabezado {
+   
+    background-image: url("./Images/imagenCentral.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    color: antiquewhite;
+    
+}
+.posicionMain {
+    height: 450px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 20px;
+    background-color: transparent;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+}
+
+.tamañoIcono {
+    height: 75px;
+    width: 75px;
+    background-color:  #e28743;
+    margin: 10px;
+}
+
+.tamañoImagen {
+    height: 50px;
+    width: 50px;
+    background-color:  #e28743;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.h1Dulce {
+    text-align: right;
+    background-color: transparent;
+}
+
+.pDulce {
+    background-color: transparent;
+}
+
+.h4LaMejor {
+    color:  #e28743;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.pCalidad {
+    color: #e28743;
+    font-size: xx-small;
+    text-align: center;
+}
+
+.productos {
+    background-color: #595754;
+    color:  #e28743;
+    height: 90px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+.imagenDulce {
+    height: auto;
+    width: 50%;
+}
+
+.productosConInfo {
+    display: flex;
+    
+}
+
+
+.h3Imagen1 {
+    color: #e28743;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 40px;
+}
+
+.pImagen1 {
+    padding-top: 40px;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 1em;
+}
+
+.h6Imagen1{
+    color: #e28743;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 1em;
+}
+
+.buttonImagen1{
+    color: #e28743;
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-bottom: 60px;
+}
+
+.contenedorInfoInverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.alfajoresDeMaicena {
+    background-color: #eab676;
+}
+
+.form {
+    color: white;
+    height: 90px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.formulario {
+    display: flex;
+}
+
+.imagenFormulario {
+    width: 45%;
+}
+
+.divFormulario {
+    width: 55%;
+    background-color: white;
+}
+
+.formFormulario{
+    background-color: white;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+label {
+    color: #95744b;
+    width: 50%;
+}
+
+input {
+    width: 50%;
+    color: #95744b;
+}
+
+.pFormulario {
+    background-color: white;
+    color: #95744b;
+}
+
+.recetasContainer {
+    background-color: #595754;
+}
+
+.h2Recetas {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 50%;
+    background-color: #595754;
+    color: white;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.fondoCard {
+    background-color: #eab676;
+}
+
+.pCard {
+    color: white;
+}
+
+.posicionCard {
+    margin: 30px;
+}
+
+.tamanioImagen{
+    height: 200px;
+}
+
+.tituloFooter {
+    background-color: #595754;
+    color: white;
+    padding-top: 50px;
+    padding-left: 40%;
+    padding-bottom: 50px;
+}
+
+.divFooter {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    
+}
+
+.iconosFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.h6Footer{
+    color: #95744b;
+}
+
+ul {
+    list-style: none;
+    margin-left: -30px;
+}
+
+.iconosIconos{
+    background-color: white;
+    margin: 5px;
+}
+
+.botonAmarillo {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 550px) {
+    .posicionMain {
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .posicionMain {
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .productosConInfo {
+    flex-direction: column;
+    }
+    .contenedorInfoInverse {
+    flex-direction: column;
+    }
+    .imagenDulce {
+        display: none;
+    }
+    .imagenFormulario{
+        display: none;
+    }
+    .divFormulario {
+        width: 100%
+    }
+    .formFormulario{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    }
+    .cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .divFooter {
+    flex-direction: column;
+    align-items: start;
+    }
+    .tituloFooter {
+    padding-left: 10%;
+    }
+    .h2Recetas {
+    padding-left: 10%;
+}
