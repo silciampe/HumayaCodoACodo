@@ -288,4 +288,37 @@ ul {
     }
     .h2Recetas {
     padding-left: 10%;
+}}
+
+.contenedor-general {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contenedor-tarjetas {
+    padding: 20px;
+    width: 50%;
+    max-width: 900px;
+    background-color: white;
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 55rem;
+    color: white;
+}
+
+.tarjetas {
+    color: white;
+}
+
+.colorTexto {
+    color: white!important;
+}
+
+.navHumaya {
+    margin-right: 50px;
 }
